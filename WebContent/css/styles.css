@@ -1,0 +1,220 @@
+h2{
+	text-align: center;
+	font-style: italic;
+	color: #EFEFEF;
+}
+
+h3 {
+	text-align: center;			/*	left	*/
+	margin: 5px;
+	padding: 10px;
+	padding-left: 10px;
+}
+
+
+
+label {
+	margin: 10px;
+}
+
+fieldset {
+	margin: 10px;
+}
+
+p {
+	margin-left: 10px;
+}
+
+/*
+input[type=text] {
+	border: 1px dotted #999;
+	border-radius: 0;
+	margin: 20px;
+	padding: 10px;
+}
+*/
+
+/*
+select {
+	border: 1px dotted #999;
+	border-radius: 0;
+	margin: 20px;
+	padding: 10px;
+}
+*/
+.container {
+	margin: auto;
+	padding: 10px;
+	/*	border: 2px solid #000;	*/
+}
+
+/* BOOTS
+*********************************/
+body {
+	background-color: #818B8D;
+}
+
+body.container {
+	
+  /* Safari 4-5, Chrome 1-9 */
+    background: -webkit-gradient(radial, center center, 0, center center, 460, from(#1a82f7), to(#2F2727));
+
+  /* Safari 5.1+, Chrome 10+ */
+    background: -webkit-radial-gradient(circle, #1a8 , #126);		/*	#1a82f7	,	#2F2727*/
+    
+
+  /* Firefox 3.6+ */
+    background: -moz-radial-gradient(circle, #1a82f7, #2F2727);
+
+  /* IE 10 */
+    background: -ms-radial-gradient(circle, #1a82f7, #2F2727);
+    height:600px;
+}
+
+.centered-form{
+	margin-top: 60px;
+}
+
+.centered-form .panel {
+	background: rgba(255, 255, 255, 0.8);
+	box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 20px;
+	
+	/*	border: 8px solid red;	*/
+	/* top | right | bottom | left */
+	/*	margin: auto;	*/
+	margin-left:  250px;
+	width: 650px;
+}
+
+
+/*PARA LOS MENSAJES DE ERROR, ETC PARA EL USUARIO
+*************************************/
+.centered-form .panel-red {
+	background: rgba(249, 191, 187, 1); /*rgba(249, 191, 187, 1);*/
+	box-shadow: rgba(0, 0, 0, 0.2) 20px 20px 20px;
+	border-radius: 0.3em;
+	
+	/*	border: 8px solid red;	*/
+	/* top | right | bottom | left */
+	/*	margin: auto;	*/
+	margin-left:  265px;
+	margin-bottom: 30px;
+	width: 650px;
+}
+
+.descrip {
+	font-family: sans-serif;
+	font-size: 20px;
+}
+
+label.label-floatlabel {
+   font-weight: bold;
+   color: #46b8da;
+   font-size: 11px;
+}
+
+
+legend.label-floatlabel {
+   font-weight: bold;
+   color: #46b8da;
+   font-size: 11px;
+
+}
+
+
+
+/*	MAQUETACION WIDGET
+color de fondo de la pantalla #555690
+color iconos #F0F8FA
+color blanco para los textos #F0F8FA
+Azul donde esta el mes y dia #4DBDE2
+Gris de fondo donde vienen los grados y la localización #2E3336
+
+******************/
+/*	COLORES
+
+morado: #68518D;
+blanco roto de fondo: #F0F8FA;
+gris claro (icono tiempo): #858F91;			 #818B8D 
+gris oscuro: #2E3336;	(grados y localizacion)
+azul: #4DBDE2;	(mes dia)
+ #F0F8FA		(textos)
+
+
+*/
+
+.widget-text {
+	font-family: 'Open Sans', sans-serif;
+	color: #F0F8FA;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	margin: auto;
+}
+
+.container-morado {
+	background: #68518D;
+	height: 370px;
+	width: 500px;
+	margin: auto;
+}
+
+.container-blanco {
+	background: #F0F8FA;
+	border-top-right-radius: 1em;
+	border-top-left-radius: 1em;
+	height: 220px;
+	width: 440px;
+	margin: auto;
+	/*margin-top: 5px;*/
+	
+}
+
+.container-gris-temp{
+	padding-top:15px;
+	text-align: center;
+	background: #2E3336;
+	border-bottom-left-radius: 1em;
+	/*border-radius: 1em;*/
+	height: 85px;
+	width: 125px;
+	margin-left: 30px;
+	display: inline-block;
+}
+
+.container-gris-ciudad{
+	padding-top:15px;
+	background: #2E3336;
+	height: 85px;
+	width: 200px;
+	margin: auto;
+	display: inline-block;
+}
+
+
+.container-azul{
+
+	text-align: center;
+	padding-top:15px;
+	/*
+	font-size: 20px;
+*/
+	background:  #4DBDE2;
+	border-bottom-right-radius: 1em;
+	height: 85px;
+	width: 115px;
+	display: inline-block;
+
+}
+
+
+
+
+
+
+
+
+
+
+
