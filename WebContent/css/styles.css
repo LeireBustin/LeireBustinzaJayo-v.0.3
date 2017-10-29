@@ -181,6 +181,16 @@ p {
 	width: 125px;
 	margin-left: 30px;
 	display: inline-block;
+	float: left;
+}
+
+.temperatura {
+	font-size: 50px;
+	display: inline-block;
+}
+.grados {
+	font-size: 26px;
+	display: inline-block;
 }
 
 .container-gris-ciudad{
@@ -190,8 +200,17 @@ p {
 	width: 200px;
 	margin: auto;
 	display: inline-block;
+	float: left;
+}
+.descripcion {
+	color: grey;
+	font-size: 20px;
+	padding-top: 5px;
 }
 
+.localizacion {
+	padding-top: 2px;
+}
 
 .container-azul{
 
@@ -206,6 +225,17 @@ p {
 	width: 115px;
 	display: inline-block;
 
+}
+
+.mes {
+	margin-top: 5px;
+	margin-bottom: -9px;
+}
+
+.dia {
+	font-size: 36px;
+	margin-top: -5px;
+	
 }
 
 

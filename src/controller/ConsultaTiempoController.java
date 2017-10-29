@@ -57,7 +57,8 @@ public class ConsultaTiempoController extends HttpServlet {
 			}else if ("Londres".equalsIgnoreCase(localizacion) || "London".equalsIgnoreCase(localizacion)) {
 				t = new Tiempo("Londres", 20, "soleado", 'R');
 			}else {
-				msg = "Lo sentimos, la localización introducida no existe en nuestra base de datos";
+				//msg = "Lo sentimos, la localización introducida no existe en nuestra base de datos";
+				msg = "Lo sentimos, la localización " + localizacion.toUpperCase() + " no existe en nuestra base de datos";
 				view = "index.jsp";
 			}
 			

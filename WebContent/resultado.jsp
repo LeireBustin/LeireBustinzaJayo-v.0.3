@@ -52,16 +52,16 @@
 			</div>	<!-- div container-blanco -->
 			<div>
 				<div> <!-- @see https://geeks.ms/santypr/2015/01/02/html-css-eliminar-espacio-entre-los-elementos-en-lnea-inline-block/ -->
-					<div class="container-gris-temp"><br>
-						${ t.getTemperatura(tipoGrados) }
-						<%=grados %><br></div
+					<div class="container-gris-temp">
+						<p class="temperatura">${ t.getTemperatura(tipoGrados) }</p>
+						<p class="grados"><%=grados %></p><br></div
 					><div class="container-gris-ciudad"
 					
-					>${t.getDescripcion() }<br>
-					<%=t.getLocalizacion() %></div
+					><p class="descripcion">${t.getDescripcion() }</p>
+					<p class="localizacion"><%=t.getLocalizacion() %></p></div
 					><div class="container-azul">
-						${t.getMes() }<br>
-						<%=t.getDia() %>
+						<p class="mes">${t.getMes().toUpperCase() }</p>
+						<p class="dia"><%=t.getDia() %></p>
 					
 					</div>
 				</div>	
